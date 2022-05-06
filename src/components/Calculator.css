@@ -1,0 +1,19 @@
+.numpad {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    justify-content: center;
+}
+
+.num-btn {
+    border: 1px solid black;
+}
+
+#zero-btn {
+    grid-column: 1/span 2;
+}
