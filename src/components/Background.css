@@ -46,14 +46,27 @@
     position: fixed;
     width: 65.25px;
     height: 112.49px;
-    left: 518px;
-    top: 70px;
+    left: 475px;
+    top: 46px;
+
 }
 
 #img2 {
     position: fixed;
     width: 65.25px;
     height: 112.49px;
-    left: 688px;
-    top: 280px;
+    left: 745px;
+    top: 425px;
+}
+
+@media only screen and (max-width:550px) {
+
+    #rec1,
+    #rec2,
+    #cir1,
+    #cir2,
+    img {
+        display: none;
+    }
+
 }

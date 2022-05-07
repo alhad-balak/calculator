@@ -1,7 +1,10 @@
-#main-app{
+#main-app {
   z-index: 2;
 }
-html, body{
+
+html,
+body {
+  /* background-color: aqua; */
   width: 100%;
   max-height: 80%;
 }

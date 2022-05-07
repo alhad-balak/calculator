@@ -1,13 +1,14 @@
 .calculator-body {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 50vmax;
+    min-width: 100%;
     margin: auto;
     min-height: 550px;
+    top: 70px;
 
 }
 
@@ -16,8 +17,8 @@
     border-radius: 10px;
     margin: 0px;
     padding: 5px;
-    width: 150px;
-    height: 145px;
+    width: 250px;
+    height: 200px;
     position: relative;
     box-shadow: 0px 0px 13px rgb(0 0 0 / 23%);
 }
@@ -26,12 +27,12 @@
     background-color: #F0F0F3;
     display: grid;
     justify-content: space-evenly;
-    grid-template-rows: 30px 30px 30px 30px 30px;
+    grid-template-rows: 55px 55px 55px 55px 55px;
     gap: 5px 5px;
     border-radius: 8px;
     /* border: 2px solid black; */
-    width: 150px;
-    height: 175px;
+    width: 250px;
+    height: 300px;
     margin: 0px;
     padding: 5px;
     position: relative;
@@ -43,10 +44,10 @@
 
 .row {
     display: grid;
-    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-columns: 55px 55px 55px 55px;
     /* justify-content: center; */
     justify-content: space-evenly;
-    gap: 5px 5px;
+    gap: 6px 6px;
     border-radius: 5px;
 }
 
@@ -56,29 +57,31 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.105);
     margin: 1px;
     color: rgba(4, 58, 112, 0.628);
-    font-weight: 600;
-    font-size: 110%;
+    font-weight: 800;
+    font-size: 150%;
     padding: auto;
     cursor: pointer;
 }
 .opr-btn{
     color: rgba(14, 14, 225, 0.648);
-    font-weight: 300;
-    font-size: 90%;
+    font-weight: 600;
+    font-size: 130%;
 }
 .opr0-btn{
     color: grye;
-    font-weight: 300;
-    font-size: 90%;
+    font-weight: 700;
+    font-size: 130%;
 }
 #clear-btn{
     color: grey;
     font-size: large;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 170%;
 }
 #zero-btn {
     grid-column: 1/span 2;
     text-align: left;
+    padding: 0px 27px;
 }
 #equ-btn{
     background-color: rgb(5, 164, 164);
@@ -86,20 +89,20 @@
     font-size: 90%;
 }
 .input {
-    color: rgba(97, 103, 212, 0.655);
+    color: rgba(52, 56, 125, 0.979);
     position: absolute;
-    bottom: 50px;
-    right: 5px;
-    font-size: large;
-    font-weight: 400;
+    bottom: 70px;
+    right: 10px;
+    font-size: 250%;
+    font-weight: 700;
 }
 
 .output {
     color: white;
     position: absolute;
-    bottom: 15px;
-    right: 5px;
-    font-size: 30px;
+    bottom: 10px;
+    right: 10px;
+    font-size: 350%;
     font-weight: 700;
 }
 
