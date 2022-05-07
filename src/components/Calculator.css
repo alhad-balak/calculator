@@ -59,6 +59,7 @@
     font-weight: 600;
     font-size: 110%;
     padding: auto;
+    cursor: pointer;
 }
 .opr-btn{
     color: rgba(14, 14, 225, 0.648);
