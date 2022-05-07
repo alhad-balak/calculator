@@ -1,5 +1,5 @@
 #rec1 {
-    position: absolute;
+    position: fixed;
     width: 109.82px;
     height: 125.65px;
     left: 90px;
@@ -10,7 +10,7 @@
 }
 
 #rec2 {
-    position: absolute;
+    position: fixed;
     width: 150px;
     height: 150px;
     left: 900px;
@@ -21,7 +21,7 @@
 }
 
 #cir1 {
-    position: absolute;
+    position: fixed;
     width: 194px;
     height: 194px;
     border-radius: 50%;
@@ -32,7 +32,7 @@
 }
 
 #cir2 {
-    position: absolute;
+    position: fixed;
     width: 124px;
     border-radius: 50%;
     height: 124px;
@@ -43,7 +43,7 @@
 }
 
 #img1 {
-    position: absolute;
+    position: fixed;
     width: 65.25px;
     height: 112.49px;
     left: 518px;
@@ -51,7 +51,7 @@
 }
 
 #img2 {
-    position: absolute;
+    position: fixed;
     width: 65.25px;
     height: 112.49px;
     left: 688px;
