@@ -23,7 +23,7 @@
 }
 
 .numpad {
-    background-color: white;
+    background-color: #F0F0F3;
     display: grid;
     justify-content: space-evenly;
     grid-template-rows: 30px 30px 30px 30px 30px;
@@ -53,7 +53,7 @@
 .num-btn {
     border: 0px solid black;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.224);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.105);
     margin: 1px;
     color: rgba(4, 58, 112, 0.628);
     font-weight: 600;

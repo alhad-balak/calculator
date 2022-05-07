@@ -7,8 +7,8 @@ import Background from './components/Background';
 function App() {
   return (
     <div className="App">
-      <Background />
-      <Calculator />
+      <Background id='bg'/>
+      <Calculator id='main-app'/>
     </div>
   );
 }
