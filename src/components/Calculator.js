@@ -50,7 +50,7 @@ const Calculator = () => {
 
     const handleOpr = (event) => {
         // console.log(prevNum);
-        if (inputData === '') {
+        if (outputData !== 0) {
             setInputData(outputData + event.target.value);
             // setPrevNum(outputData)
         }
@@ -108,14 +108,14 @@ const Calculator = () => {
         setCurrNum(0)
         setPrevNum(cal);
         // setPrevNum(outputData);
-        setInputData('');
+        // setInputData('');
         setPrevOpr(null)
     }
     return (
         <div className='calculator-body'>
             <div className="display">
                 <div className="input">{inputData}</div>
-                <div className="output">={outputData}</div>
+                <div className="output">{outputData ? outputData : ''}</div>
             </div>
             <div className="numpad">
                 <div className="row">

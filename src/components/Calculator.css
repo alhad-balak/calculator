@@ -7,7 +7,7 @@
     align-items: center;
     min-width: 50vmax;
     margin: auto;
-    min-height: 600px;
+    min-height: 550px;
 
 }
 
@@ -86,18 +86,19 @@
     font-size: 90%;
 }
 .input {
-    color: white;
+    color: rgba(97, 103, 212, 0.655);
     position: absolute;
     bottom: 50px;
-    right: 3px;
+    right: 5px;
     font-size: large;
+    font-weight: 400;
 }
 
 .output {
     color: white;
     position: absolute;
     bottom: 15px;
-    right: 3px;
+    right: 5px;
     font-size: 30px;
     font-weight: 700;
 }
